@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "my-nextron-app",
+  "description": "Minecraft Heraxia.net Minimap",
+  "version": "1.0.0",
+  "author": "Pedrovisk",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@xstyled/emotion": "^3.7.0",
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^21.3.3",
+    "electron-builder": "^23.6.0",
+    "next": "^12.3.4",
+    "nextron": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
