@@ -1,38 +1,24 @@
-<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
+# Heraxia - Minimap ![](https://img.shields.io/badge/✖️_DISCONTINUED-red?style=flat-square&logoColor=black')
 
-## Usage
-
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example basic-javascript
-
-# with yarn
-$ yarn create nextron-app my-app --example basic-javascript
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example basic-javascript
-```
+🖥 Desktop App from Minecraft Server Map - https://heraxia.net
 
 ### Install Dependencies
-
+```js
+npm install or yarn add (Recommended)
 ```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
-
 ### Use it
+```js
+- Development Mode
+npm run dev or yarn dev (Recommended)
 
+- Production Build
+npm run build or yarn build (Recommended)
 ```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+## It was done using
+ - - [x] <strong>[NextJS](https://nextjs.org/)</strong>
+ - - [x] <strong>[Electron](https://www.electronjs.org/pt/)</strong>
+ - - [x] <strong>[xStyled](https://xstyled.dev/)</strong>
+
+## LICENSE
+This project is licensed under <strong>MIT</strong>, which basically means you can do anything you want with it, i only ask that you include a small copyright notice and a link to this repo in a comment in your source code.
