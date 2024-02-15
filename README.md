@@ -1,6 +1,10 @@
 # Heraxia - Minimap ![](https://img.shields.io/badge/✖️_DISCONTINUED-red?style=flat-square&logoColor=black')
 
 🖥 Desktop App from Minecraft Server Map - https://heraxia.net
+<p align='start'>
+	<img src='heraxia.gif' alt='Heraxia Gif' />
+</p>
+
 
 ### Install Dependencies
 ```js
